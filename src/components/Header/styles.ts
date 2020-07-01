@@ -31,6 +31,11 @@ export const Container = styled.div<ContainerProps>`
           opacity: 0.6;
         }
       }
+
+      a.active {
+        padding-bottom: 8px;
+        border-bottom: 2px solid #ff872c;
+      }
     }
   }
 `;
